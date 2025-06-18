@@ -2,3 +2,26 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* Основные цвета */
+  --bg-color: #000028;
+  --title-one: #DB00FF;
+  --shadow_title-one: #FF0070;
+  --section-name: #FF0070;
+  --title-too: #fff; 
+
+  /* Шрифты */
+  --font-primary: 'Arial', sans-serif;
+  --font-secondary: 'Times New Roman', serif;
+
+  /* Размеры шрифтов */
+  --font-size-base: 16px;
+  --line-height-base: 1.6;
+
+  /* Отступы */
+  --spacing-base: 20px;
+  --spacing-lg: 40px;
+  --spacing-sm: 10px;
+
+}
