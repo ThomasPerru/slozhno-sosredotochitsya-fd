@@ -6,17 +6,26 @@
 :root {
   /* Основные цвета */
   --bg-color: #000028;
-  --title-one: #DB00FF;
-  --shadow_title-one: #FF0070;
-  --section-name: #FF0070;
-  --title-too: #fff; 
+
+  --header_title_color: #DB00FF;
+  --shadow_header_title: #FF0070;
+
+  --title-footer_color: #DB00FF;
+
+  --section_title_color: #FF0070;
+  --menu_item-paragraph_color: #000028 ;
+  --title_same: #FF0070;
+  --menu_item-paragraph-thin: #000028;
+
+  --text-color-link:#FF0070;
+  --text-shadow: 4px 4px 0 var(--text-color-link);
 
   /* Шрифты */
-  --font-primary: 'Arial', sans-serif;
-  --font-secondary: 'Times New Roman', serif;
+  --font-primary: 'IBM Plex mono';
+  --font-secondary: serif;
 
   /* Размеры шрифтов */
-  --font-size-base: 16px;
+  --font-size-h1: 16px;
   --line-height-base: 1.6;
 
   /* Отступы */
