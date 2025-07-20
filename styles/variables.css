@@ -5,7 +5,7 @@
 
 :root {
   /* Основные цвета */
-  --page_text-color: #F1B2CE;
+  --page_text-color: #FF0070;
   --bg-color: #000028;
 
   --header_title_color: #DB00FF;
@@ -15,7 +15,7 @@
   --header__theme-menu_color-border:#FF0070;
 
   --section_title_color: #FF0070;
-
+  --section_text_color: #F1B2CE;
   --menu_item-paragraph_color: #000028 ;
   
   --title_same_text-color: #000028;
@@ -24,7 +24,7 @@
   --menu_item-paragraph-thin: #000028;
 
   --text-color-link:#FF0070;
-  --text-shadow: 4px 4px 0 var(--text-color-link);
+  --text-shadow: 1px 1px 0 var(--text-color-link, #FF0070);
 
   --title-footer_color: #DB00FF;
   --shadow_footer_title: 2px 2px 0 #FF0070;
@@ -36,14 +36,5 @@
   /* Шрифты */
   --font-primary: 'IBM Plex mono';
   --font-secondary: serif;
-
-  /* Размеры шрифтов */
-  --font-size-h1: 16px;
-  --line-height-base: 1.6;
-
-  /* Отступы */
-  --spacing-base: 20px;
-  --spacing-lg: 40px;
-  --spacing-sm: 10px;
 
 }
