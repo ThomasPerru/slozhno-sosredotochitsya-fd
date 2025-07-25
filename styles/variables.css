@@ -11,26 +11,26 @@
   --header_title_color: #DB00FF;
   --shadow_header_title: 4px 4px 0 #FF0070;
 
-  --header__theme-menu_color:#FF0070;
-  --header__theme-menu_color-border:#FF0070;
+  --header__theme-menu_color: #FF0070;
+  --header__theme-menu_color-border: #FF0070;
 
   --section_title_color: #FF0070;
   --section_text_color: #F1B2CE;
-  --menu_item-paragraph_color: #000028 ;
-  
+  --menu_item-paragraph_color: #000028;
+
   --title_same_text-color: #000028;
   --title_same_bg-color: #FF0070;
 
   --menu_item-paragraph-thin: #000028;
 
-  --text-color-link:#FF0070;
+  --text-color-link: #FF0070;
   --text-shadow: 1px 1px 0 var(--text-color-link, #FF0070);
 
   --title-footer_color: #DB00FF;
   --shadow_footer_title: 2px 2px 0 #FF0070;
 
   /* Картинка на фоне header */
-  
+
   --header_background-image: url(../images/cover-image-dark.png);
 
   /* Шрифты */
