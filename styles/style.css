@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  overflow-wrap: break-word;
   color: var(--page_text-color, #f1b2ce);
   font-family: var(--font-primary, sans-serif);
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
@@ -20,6 +19,8 @@
   position: relative;
   display: grid;
   grid-template-rows: repeat(4, auto);
+  height: 100vh;
+  min-height: 668px;
 }
 
 .header__recording::before {
@@ -110,6 +111,7 @@
   margin-inline-start: 10px;
   margin-inline-end: 10px;
   margin-block-end: 66px;
+  height: min-content;
 }
 
 .indent {
@@ -123,23 +125,23 @@
   gap: 20px;
 }
 
-.content_section-one {
+.content_section-why {
   margin-block-start: 40px;
 }
 
-.content_section-too {
+.content_section-causes {
   margin-block-start: 49px;
 }
 
-.section-too_title-justify-self {
+.section-causes_title-justify-self {
   justify-self: start;
 }
 
-.content_section-three {
+.content_section-advices {
   margin-block-start: 48px;
 }
 
-.menu_item-paragraph_section-three {
+.menu_item-paragraph_section-advices {
   margin-block-end: 20px;
 }
 
@@ -185,7 +187,7 @@
 .content-section_gallery {
   gap: 10px;
   margin-block-start: 50px;
-  margin-block-end: 40px;
+  margin-block-end: 42px;
 }
 
 .gallery_title-paragraph {
@@ -215,15 +217,34 @@
   position: relative;
   display: flex;
   justify-content: center;
+  height: 100vh;
+  min-height: 668px;
+  padding-block-start: 287px;
 }
 
 .footer__title {
-  margin-block-start: 286px;
-  margin-block-end: 285px;
   color: var(--title-footer_color, #db00ff);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   text-shadow: var(--shadow_footer_title, 2px 2px 0 #ff0070);
+}
+
+button:hover {
+  outline: 1px solid var(--button-hover, rgba(255, 0, 112, 0.4));
+}
+
+button:focus {
+  outline: none;
+  border-bottom: 1px solid var(--button-active, #FF0070);
+}
+
+a:hover {
+  border-bottom: 1px solid var(--a-hover, #F1B2CE);
+}
+
+a:focus {
+  outline: none;
+  outline: 1px solid var(--a-active, #F1B2CE);
 }
 
 @media (min-width: 768px) {
@@ -269,34 +290,34 @@
     padding: 0 20px;
   }
 
-  .content_section-one {
+  .content_section-why {
     margin-block-start: 61px;
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
 
-  .content_section-too {
-    margin-block-start: 82px;
+  .content_section-causes {
+    margin-block-start: 78px;
     display: grid;
     grid-template-rows: 1fr auto;
   }
 
-  .section-too_title-justify-self {
+  .section-causes_title-justify-self {
     max-width: 236px;
   }
 
-  .content_section-three {
+  .content_section-advices {
     margin-block-start: 80px;
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
 
-  .menu_item-paragraph_section-three {
+  .menu_item-paragraph_section-advices {
     margin-block-end: 20px;
   }
 
   .content-section_gallery {
-    margin-block-start: 80px;
+    margin-block-start: 79px;
     margin-block-end: 60px;
   }
 
@@ -337,8 +358,8 @@
   }
 
   .footer__title {
-    margin-block-start: 463px;
-    margin-block-end: 460px;
+    padding-block-start: 176px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
 }
@@ -357,7 +378,6 @@
   .header__title {
     padding: 0;
     margin: 199px 0 115px 0;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__content-text-block {
@@ -367,25 +387,25 @@
     justify-self: right;
   }
 
-  .list_section-one {
+  .list_section-why {
     margin-inline-start: -6px;
   }
 
-  .content_section-too {
+  .content_section-causes {
     margin-block-start: 80px;
   }
 
-  .list_section-too {
+  .list_section-causes {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .section-too_title-justify-self {
+  .section-causes_title-justify-self {
     max-width: 315px;
   }
 
-  .content_section-three_content-together {
+  .content_section-advices_content-together {
     margin-inline-start: -6px;
   }
 
@@ -394,8 +414,6 @@
   }
 
   .footer__title {
-    margin-block-start: 319px;
-    margin-block-end: 317px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding-block-start: 30px;
   }
 }

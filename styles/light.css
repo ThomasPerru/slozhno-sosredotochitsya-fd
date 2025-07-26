@@ -15,59 +15,71 @@
   --header_title_color: #FFC2E6;
   --shadow_header_title: 4px 4px 0 #FF8DCB;
 
-  --header__theme-menu_color:#353430;
-  --header__theme-menu_color-border:#353430;
+  --header__theme-menu_color: #353430;
+  --header__theme-menu_color-border: #353430;
 
   --section_title_color: #353430;
   --section_text_color: #353430;
-  --menu_item-paragraph_color: #353430 ;
+  --menu_item-paragraph_color: #353430;
 
   --title_same_text-color: #353430;
   --title_same_bg-color: #FF8DCB;
 
   --menu_item-paragraph-thin: #353430;
 
---text-color-link:#FF8DCB;
+  --text-color-link: #FF8DCB;
   --text-shadow: 1px 1px 0 var(--text-color-link, #FF8DCB);
 
   --title-footer_color: #FFC2E6;
   --shadow_footer_title: 1px 1px 0 #FF0070;
+
+  --button-hover: rgba(53, 52, 48, 0.4);
+  --button-active: #353430;
+
+  --a-hover: #353430;
+  --a-active: #353430;
 
   --header_background-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем переменные светлой темы */   
-  --page_text-color: #353430;
-  --bg-color: #FFF1F7;
+    /* Дублируем переменные светлой темы */
+    --page_text-color: #353430;
+    --bg-color: #FFF1F7;
 
-  --header_title_color: #FFC2E6;
-  --shadow_header_title: 4px 4px 0 #FF8DCB;
+    --header_title_color: #FFC2E6;
+    --shadow_header_title: 4px 4px 0 #FF8DCB;
 
-  --header__theme-menu_color:#353430;
-  --header__theme-menu_color-border:#353430;
+    --header__theme-menu_color: #353430;
+    --header__theme-menu_color-border: #353430;
 
-  --section_title_color: #353430;
-  --section_text_color: #353430;
-  --menu_item-paragraph_color: #353430 ;
+    --section_title_color: #353430;
+    --section_text_color: #353430;
+    --menu_item-paragraph_color: #353430;
 
-  --title_same_text-color: #353430;
-  --title_same_bg-color: #FF8DCB;
+    --title_same_text-color: #353430;
+    --title_same_bg-color: #FF8DCB;
 
-  --menu_item-paragraph-thin: #353430;
+    --menu_item-paragraph-thin: #353430;
 
-  --text-color-link:#FF8DCB;
-  --text-shadow: 1px 1px 0 var(--text-color-link, #FF8DCB);
+    --text-color-link: #FF8DCB;
+    --text-shadow: 1px 1px 0 var(--text-color-link, #FF8DCB);
 
-  --title-footer_color: #FFC2E6;
-  --shadow_footer_title: 1px 1px 0 #FF0070;
+    --title-footer_color: #FFC2E6;
+    --shadow_footer_title: 1px 1px 0 #FF0070;
 
-  --header_background-image: url(../images/cover-image-light.png);
+    --button-hover: rgba(53, 52, 48, 0.4);
+    --button-active: #353430;
+
+    --a-hover: #353430;
+    --a-active: #353430;
+
+    --header_background-image: url(../images/cover-image-light.png);
   }
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  
+
 }
