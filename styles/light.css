@@ -9,6 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
   --page_text-color: #353430;
   --bg-color: #FFF1F7;
 
@@ -79,7 +80,24 @@
   }
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+:root.theme-light .header__recording::before {
+  content: "";
+}
 
+@media (prefers-color-scheme: light) {
+  .header__recording::before {
+    content: "";
+  }
+}
+
+:root.theme-light .header__recording::after {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+  .header__recording::after {
+    box-shadow: none;
+    background-color: transparent;
+  }
 }
