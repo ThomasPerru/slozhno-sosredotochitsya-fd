@@ -326,7 +326,6 @@ a:focus {
   }
 
   .gallery {
-    display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 24.5% 29.5% 41%;
@@ -376,15 +375,12 @@ a:focus {
   }
 
   .header__title {
-    padding: 0;
     margin: 199px 0 115px 0;
   }
 
   .header__content-text-block {
-    margin-inline-end: 20px;
     margin-block-end: 131px;
     max-width: 491px;
-    justify-self: right;
   }
 
   .list_section-why {
