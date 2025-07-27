@@ -362,7 +362,8 @@ a:focus {
 @media (min-width: 1024px) {
   .header__theme-menu {
     justify-self: center;
-    margin-block-start: 20px;
+    padding-block-end: 245px;
+    margin-block-start: 0;
   }
 
   .header__theme-menu-list {
@@ -370,11 +371,11 @@ a:focus {
   }
 
   .header__title {
-    margin: 199px 0 115px 0;
+    margin-block-end: 97px;
   }
 
   .header__content-text-block {
-    margin-block-end: 33px;
+    margin-block-end: 116px;
     max-width: 491px;
   }
 
