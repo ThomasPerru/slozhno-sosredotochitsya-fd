@@ -78,26 +78,22 @@
 
     --header_background-image: url(../images/cover-image-light.png);
   }
+
+  .header__recording::before {
+    content: "";
+  }
+
+  .header__recording::after {
+    box-shadow: none;
+    background-color: transparent;
+  }
 }
 
 :root.theme-light .header__recording::before {
   content: "";
 }
 
-@media (prefers-color-scheme: light) {
-  .header__recording::before {
-    content: "";
-  }
-}
-
 :root.theme-light .header__recording::after {
   box-shadow: none;
   background-color: transparent;
-}
-
-@media (prefers-color-scheme: light) {
-  .header__recording::after {
-    box-shadow: none;
-    background-color: transparent;
-  }
 }
