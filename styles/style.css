@@ -219,7 +219,7 @@
   justify-content: center;
   height: 100vh;
   min-height: 668px;
-  padding-block-start: 287px;
+  align-items: center;
 }
 
 .footer__title {
@@ -357,7 +357,6 @@ a:focus {
   }
 
   .footer__title {
-    padding-block-start: 176px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -407,9 +406,5 @@ a:focus {
 
   .gallery {
     grid-template-rows: 24.5% 30.5% 41%;
-  }
-
-  .footer__title {
-    padding-block-start: 30px;
   }
 }
